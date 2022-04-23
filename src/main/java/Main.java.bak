@@ -11,7 +11,7 @@ public class Main {
         // Game game = new Game(500, 800);
         // game.run();
 		
-		AI ai = new AI();
+		
 		
     }
 }

@@ -40,9 +40,9 @@ public class AI {
 				}
 			}
 			// Reinitialize previousV for next level actions
-			previousV.clear();
+			previousV.removeAll();
 			previousV.addAll(nextV);
-			nextV.clear();
+			nextV.removeAll();
 			System.out.println();
 		}
 		
